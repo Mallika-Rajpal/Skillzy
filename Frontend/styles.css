@@ -1,0 +1,134 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0E5D8; /* Soft pastel background */
+  color: #333;
+}
+
+/* Container class for consistent layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header section styling */
+header {
+  background-color: #D3B8B2; /* Pastel shade of pink */
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo-img {
+  width: 150px; /* Adjusted size */
+  height: 150px;
+  margin-right: 15px;
+}
+
+header .logo-text {
+  font-family: 'Poppins', sans-serif; /* Changed font */
+  color: #B489B1; /* Light pastel purple */
+  font-size: 3rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none; /* Removed underline */
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #D3B8B2; /* Light pastel pink on hover */
+}
+
+/* Hero section styling */
+.hero {
+  background-color: #F9D8D8; /* Pastel light pink */
+  color: #5C3D52; /* Darker pastel purple */
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+}
+
+.explore-btn {
+  background-color: #D3B8B2; /* Light pastel pink */
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #B489B1; /* Light pastel purple */
+}
+
+/* Footer section styling */
+footer {
+  background-color: #D3B8B2; /* Pastel light pink */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+/* Button and link customization */
+.login-btn, .signup-btn {
+  background-color: transparent;
+  color: white;
+  font-size: 1.2em;
+  padding: 15px 25px;
+  border: 2px solid white;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: #D3B8B2; /* Highlight on hover */
+  color: #5C3D52; /* Text color when button is highlighted */
+  border-color: #D3B8B2;
+}
+
+
+
+
+
